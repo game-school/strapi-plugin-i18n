@@ -10,30 +10,12 @@
   },
   "dependencies": {
     "lodash": "4.17.21",
-    "p-map": "4.0.0",
+    "p-map": "6.0.0",
     "pluralize": "8.0.0",
-    "strapi-utils": "3.6.11"
+    "strapi-utils": "ssh://git@github.com/game-school/strapi-utils.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/strapi/strapi.git",
-    "directory": "packages/strapi-plugin-i18n"
-  },
-  "author": {
-    "name": "A Strapi developer",
-    "email": "",
-    "url": ""
-  },
-  "maintainers": [
-    {
-      "name": "A Strapi developer",
-      "email": "",
-      "url": ""
-    }
-  ],
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": ">=10.16.0 <=18.x.x",
     "npm": ">=6.0.0"
-  },
-  "license": "SEE LICENSE IN LICENSE"
+  }
 }
